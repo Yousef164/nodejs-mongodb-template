@@ -50,6 +50,8 @@ services:
         condition: service_healthy
     networks:
       - app_network
+    volumes:
+      - .:/app
 
 volumes:
   mongo_data:
