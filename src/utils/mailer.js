@@ -30,7 +30,6 @@ async function sendVerificationEmail(name, email, token) {
     </div>`,
   };
   try {
-    console.log(link);
     await transporter.sendMail(mailOptions);
   } catch (error) {
     console.error("Email sending failed:", error);

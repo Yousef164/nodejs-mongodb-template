@@ -49,7 +49,7 @@ class authService {
       }
 
       if(!user.emailVerified) {
-        throw { status: 404, message: "please verify your email to login"}
+        throw { status: 403, message: "please verify your email to login"}
       }
 
       const token = generateToken(user);
