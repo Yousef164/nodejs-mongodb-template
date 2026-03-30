@@ -1,0 +1,6 @@
+{
+  "jest.nodeEnv": {
+    "NODE_OPTIONS": "--experimental-vm-modules"
+  },
+  "jest.jestCommandLine": "npx jest --forceExit --detectOpenHandles"
+}

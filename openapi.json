@@ -22,9 +22,9 @@
                 "properties": {}
               },
               "example": {
-                "name": "Yousef Salah",
-                "email": "ys1222006@gmail.com",
-                "password": "1222006"
+                "name": "John Doe",
+                "email": "user@example.com",
+                "password": "YourSecureP@ssw0rd"
               }
             }
           },
@@ -65,8 +65,8 @@
                 "properties": {}
               },
               "example": {
-                "email": "ys1222006@gmail.com",
-                "password": "1222006"
+                "email": "user@example.com",
+                "password": "YourSecureP@ssw0rd"
               }
             }
           },
@@ -82,7 +82,7 @@
                   "properties": {}
                 },
                 "example": {
-                  "message": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzUzMmEwMzVhMGMxNDY1NmU4MWYzYSIsImVtYWlsIjoieXMxMjIyMDA2QGdtYWlsLmNvbSIsImlhdCI6MTc3NDUzMjA3NiwiZXhwIjoxNzc0NTM1Njc2fQ.T20EQpYc6eeGV5YAw3ajSE5UGXNbzVdlaIBW4bkFkOY"
+                  "message": "YOUR_JWT_TOKEN_HERE"
                 }
               }
             },

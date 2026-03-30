@@ -7,7 +7,8 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon server.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --forceExit --detectOpenHandles","test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
@@ -22,6 +23,13 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "@jest/globals": "^30.3.0",
+    "cross-env": "^10.1.0",
+    "jest": "^30.3.0",
+    "mongodb-memory-server": "^11.0.1",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
   }
 }
+
+
