@@ -48,6 +48,10 @@ class authService {
         throw { status: 401, message: "Invalid credentials" };
       }
 
+      if(!user.emailVerified) {
+        throw { status: 404, message: "please verify your email to login"}
+      }
+
       const token = generateToken(user);
 
       return { status: 200, token };
